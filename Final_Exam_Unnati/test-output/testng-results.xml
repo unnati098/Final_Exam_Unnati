@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-30T13:31:07 EDT" name="Default suite" finished-at="2022-03-30T13:31:25 EDT" duration-ms="17561">
+    <groups>
+    </groups>
+    <test started-at="2022-03-30T13:31:07 EDT" name="Default test" finished-at="2022-03-30T13:31:25 EDT" duration-ms="17561">
+      <class name="script.Swaglabs">
+        <test-method is-config="true" signature="LunchBrowser()[pri:0, instance:script.Swaglabs@59d2400d]" started-at="2022-03-30T13:31:07 EDT" name="LunchBrowser" finished-at="2022-03-30T13:31:09 EDT" duration-ms="1432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LunchBrowser -->
+        <test-method signature="LoginWithWrongData()[pri:-1, instance:script.Swaglabs@59d2400d]" started-at="2022-03-30T13:31:09 EDT" name="LoginWithWrongData" finished-at="2022-03-30T13:31:12 EDT" duration-ms="3303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithWrongData -->
+        <test-method signature="LoginWithRightData()[pri:0, instance:script.Swaglabs@59d2400d]" started-at="2022-03-30T13:31:12 EDT" name="LoginWithRightData" finished-at="2022-03-30T13:31:14 EDT" duration-ms="2354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithRightData -->
+        <test-method signature="addtocart()[pri:1, instance:script.Swaglabs@59d2400d]" started-at="2022-03-30T13:31:14 EDT" name="addtocart" finished-at="2022-03-30T13:31:25 EDT" duration-ms="10444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+      </class> <!-- script.Swaglabs -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

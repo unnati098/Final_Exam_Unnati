@@ -1,28 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-30T13:31:07 EDT" name="Default suite" finished-at="2022-03-30T13:31:25 EDT" duration-ms="17561">
+  <suite started-at="2022-03-31T11:56:25 EDT" name="Default suite" finished-at="2022-03-31T11:57:16 EDT" duration-ms="51142">
     <groups>
     </groups>
-    <test started-at="2022-03-30T13:31:07 EDT" name="Default test" finished-at="2022-03-30T13:31:25 EDT" duration-ms="17561">
+    <test started-at="2022-03-31T11:56:25 EDT" name="Default test" finished-at="2022-03-31T11:57:16 EDT" duration-ms="51142">
       <class name="script.Swaglabs">
-        <test-method is-config="true" signature="LunchBrowser()[pri:0, instance:script.Swaglabs@59d2400d]" started-at="2022-03-30T13:31:07 EDT" name="LunchBrowser" finished-at="2022-03-30T13:31:09 EDT" duration-ms="1432" status="PASS">
+        <test-method is-config="true" signature="LunchBrowser()[pri:0, instance:script.Swaglabs@1817f1eb]" started-at="2022-03-31T11:56:25 EDT" name="LunchBrowser" finished-at="2022-03-31T11:56:26 EDT" duration-ms="1426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LunchBrowser -->
-        <test-method signature="LoginWithWrongData()[pri:-1, instance:script.Swaglabs@59d2400d]" started-at="2022-03-30T13:31:09 EDT" name="LoginWithWrongData" finished-at="2022-03-30T13:31:12 EDT" duration-ms="3303" status="PASS">
+        <test-method signature="LoginWithWrongData()[pri:-1, instance:script.Swaglabs@1817f1eb]" started-at="2022-03-31T11:56:26 EDT" name="LoginWithWrongData" finished-at="2022-03-31T11:56:30 EDT" duration-ms="3289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithWrongData -->
-        <test-method signature="LoginWithRightData()[pri:0, instance:script.Swaglabs@59d2400d]" started-at="2022-03-30T13:31:12 EDT" name="LoginWithRightData" finished-at="2022-03-30T13:31:14 EDT" duration-ms="2354" status="PASS">
+        <test-method signature="LoginWithRightData()[pri:0, instance:script.Swaglabs@1817f1eb]" started-at="2022-03-31T11:56:30 EDT" name="LoginWithRightData" finished-at="2022-03-31T11:56:32 EDT" duration-ms="2360" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithRightData -->
-        <test-method signature="addtocart()[pri:1, instance:script.Swaglabs@59d2400d]" started-at="2022-03-30T13:31:14 EDT" name="addtocart" finished-at="2022-03-30T13:31:25 EDT" duration-ms="10444" status="PASS">
+        <test-method signature="dropdown()[pri:1, instance:script.Swaglabs@1817f1eb]" started-at="2022-03-31T11:56:32 EDT" name="dropdown" finished-at="2022-03-31T11:56:36 EDT" duration-ms="4097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdown -->
+        <test-method signature="addtocart()[pri:2, instance:script.Swaglabs@1817f1eb]" started-at="2022-03-31T11:56:36 EDT" name="addtocart" finished-at="2022-03-31T11:56:51 EDT" duration-ms="14676" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addtocart -->
+        <test-method signature="cart()[pri:3, instance:script.Swaglabs@1817f1eb]" started-at="2022-03-31T11:56:51 EDT" name="cart" finished-at="2022-03-31T11:56:52 EDT" duration-ms="1099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method signature="removefromcart()[pri:4, instance:script.Swaglabs@1817f1eb]" started-at="2022-03-31T11:56:52 EDT" name="removefromcart" finished-at="2022-03-31T11:57:00 EDT" duration-ms="8238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removefromcart -->
+        <test-method signature="continueshopping()[pri:5, instance:script.Swaglabs@1817f1eb]" started-at="2022-03-31T11:57:00 EDT" name="continueshopping" finished-at="2022-03-31T11:57:04 EDT" duration-ms="4174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueshopping -->
+        <test-method signature="checkout()[pri:6, instance:script.Swaglabs@1817f1eb]" started-at="2022-03-31T11:57:04 EDT" name="checkout" finished-at="2022-03-31T11:57:06 EDT" duration-ms="2076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method signature="information()[pri:7, instance:script.Swaglabs@1817f1eb]" started-at="2022-03-31T11:57:06 EDT" name="information" finished-at="2022-03-31T11:57:10 EDT" duration-ms="3344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- information -->
+        <test-method signature="continuecheckout()[pri:8, instance:script.Swaglabs@1817f1eb]" started-at="2022-03-31T11:57:10 EDT" name="continuecheckout" finished-at="2022-03-31T11:57:12 EDT" duration-ms="2118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continuecheckout -->
+        <test-method signature="finish()[pri:9, instance:script.Swaglabs@1817f1eb]" started-at="2022-03-31T11:57:12 EDT" name="finish" finished-at="2022-03-31T11:57:14 EDT" duration-ms="2098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+        <test-method signature="backtohome()[pri:10, instance:script.Swaglabs@1817f1eb]" started-at="2022-03-31T11:57:14 EDT" name="backtohome" finished-at="2022-03-31T11:57:16 EDT" duration-ms="2101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backtohome -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:script.Swaglabs@1817f1eb]" started-at="2022-03-31T11:57:16 EDT" name="closedriver" finished-at="2022-03-31T11:57:19 EDT" duration-ms="3101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
       </class> <!-- script.Swaglabs -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
